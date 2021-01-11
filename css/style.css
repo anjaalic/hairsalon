@@ -1,0 +1,98 @@
+{
+   margin: 0;
+   padding: 0;
+}
+
+/*--------Navigation-------*/
+#nav-bar {
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+
+.navbar-brand img {
+   height: 100px;
+   padding-left: 30px;
+}
+
+.navbar-nav li {
+   padding: 0 10px;
+}
+
+.navbar-nav li a {
+   float: right;
+   text-align: left;
+}
+
+#nav-bar ul li a:hover {
+   color: #2E8B57!important;
+}
+
+.navbar {
+   background: #fff;
+}
+
+.navbar-toggler {
+   border: none!important;
+
+}
+
+.nav-link {
+   color: #555!important;
+   font-weight: 600;
+   font-size: 14px;
+}
+
+/*-------Slider--------*/
+#slider {
+   width: 100%;
+}
+
+/*-----------About-------------*/
+#about {
+   padding-top: 50px;
+   padding-bottom:50px;
+   color: #555;
+   text-align: center;
+}
+
+.about-content {
+   padding-top: 20px;
+}
+
+h2 {
+   width: 100%;
+   text-align: center;
+}
+
+/*----------Services-----------*/
+#services {
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(img/servicesimg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1 {
+    color: #efefef !important;
+    padding-bottom 10px;
+    text-align: center;
+}
+
+#services h1::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.carousel-inner {
+    height: 700px;
+    min-height: 700px;
+    line-height: 700px;
+}
